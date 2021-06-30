@@ -97,9 +97,10 @@ public class pontosAdapter extends RecyclerView.Adapter<pontosAdapter.PontosView
                     **/
                     String nome = rvclick.getNome();
                     String end = rvclick.getEnd();
+                    int img = rvclick.getImg();
                     String desc = rvclick.getDesc();
                     Bundle bundle = new Bundle();
-                    //bundle.putInt("Imagem",img);
+                    bundle.putInt("Imagem",img);
                     bundle.putString("Nome",nome);
                     bundle.putString("End",end);
                     bundle.putString("Desc",desc);

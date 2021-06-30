@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:id="@+id/imgDel"
     />
 
@@ -23,8 +23,8 @@
     />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:textSize="35sp"
+        android:layout_height="70dp"
+        android:textSize="25sp"
         android:layout_below="@id/txtNome"
         android:id="@+id/txtEndereco"
         android:textColor="@color/black"
@@ -35,6 +35,8 @@
         android:layout_below="@id/txtEndereco"
         android:layout_height="match_parent"
         android:id="@+id/txtDesc"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
         android:textColor="@color/black"
     />
 </RelativeLayout>

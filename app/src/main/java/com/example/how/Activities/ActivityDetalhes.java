@@ -38,8 +38,12 @@ public class ActivityDetalhes extends AppCompatActivity {
 
         Bundle receber = telaAnterior.getExtras();
         String name = receber.getString("Nome");
-
+        int imagem = receber.getInt("Imagem");
+        String End = receber.getString("End");
+        String Desc = receber.getString("Desc");
         nome.setText(name);
-        end.setText();
+        img.setImageResource(imagem);
+        end.setText(End);
+        desc.setText(Desc);
     }
 }

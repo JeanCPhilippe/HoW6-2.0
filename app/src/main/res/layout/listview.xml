@@ -15,33 +15,23 @@
             android:id="@+id/Endereco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="10sp"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:text="Endereço"
+            android:textColor="@color/black"
             android:layout_below="@id/Nome"
             android:layout_toEndOf="@id/Foto"
             android:drawableRight="@color/black"
         />
         <TextView
             android:id="@+id/Nome"
+            android:textColor="@color/black"
             android:layout_toEndOf="@id/Foto"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="10sp"
+            android:textSize="20sp"
             android:text="Nome"
-        />
-
-        <Button
-            android:text="Detalhes"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:id="@+id/btnDetalhes"
-            android:layout_alignParentRight="true"
-            android:layout_alignEnd="@id/Foto"
-            android:layout_alignBottom="@id/Foto"
-            android:background="@color/Blue"
-            android:textColor="@color/black"
         />
 
 </RelativeLayout>
