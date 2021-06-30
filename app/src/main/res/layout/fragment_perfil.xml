@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.perfil.PerfilFragment">
+
+    <Button
+        android:id="@+id/infos"
+        android:text="@string/infos"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <Button
+        android:id="@+id/sair"
+        android:text="@string/sair"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        />
+
+    <Button
+        android:id="@+id/exc"
+        android:text="@string/exc"
+        android:layout_marginTop="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"
+        />
+</RelativeLayout>

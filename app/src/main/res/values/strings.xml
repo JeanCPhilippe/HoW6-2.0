@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HOW</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="cpf">CPF</string>
+    <string name="data">Data de Nascimento</string>
+    <string name="home">Home</string>
+    <string name="explorer">Explorar</string>
+    <string name="perfil">Perfil</string>
+    <string name="sair">Sair</string>
+    <string name="Login">Entrar</string>
+    <string name="Create">Criar Conta</string>
+    <string name="title_activity_tela_principal">MainActivity</string>
+    <string name="infos">Informações Pessoais</string>
+    <string name="exc">Excluir Conta</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

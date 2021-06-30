@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CriarConta">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="525dp"
+        android:id="@+id/btnCriar"
+        android:background="@color/purple_200"
+        android:text="@string/Create"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:hint="@string/nome"
+        android:id="@+id/Nome"
+        android:textIsSelectable="false"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginVertical="150dp"
+        android:hint="@string/email"
+        android:textIsSelectable="false"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:layout_marginVertical="225dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="225dp"
+        android:layout_marginStart="210dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Data de Nascimento"
+        tools:hint="@tools:sample/date/ddmmyy"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="450dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="300dp"
+        android:hint="@string/cpf"
+        android:gravity="center"
+        android:id="@+id/CPF"
+        android:paddingLeft="85dp"
+        android:paddingRight="85dp" />
+</RelativeLayout>

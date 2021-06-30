@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+>
+    <ImageView
+        android:id="@+id/Foto"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cristoredentor"
+    />
+
+        <TextView
+            android:id="@+id/Endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:text="Endereço"
+            android:layout_below="@id/Nome"
+            android:layout_toEndOf="@id/Foto"
+            android:drawableRight="@color/black"
+        />
+        <TextView
+            android:id="@+id/Nome"
+            android:layout_toEndOf="@id/Foto"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Nome"
+        />
+
+        <Button
+            android:text="Detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/btnDetalhes"
+            android:layout_alignParentRight="true"
+            android:layout_alignEnd="@id/Foto"
+            android:layout_alignBottom="@id/Foto"
+            android:background="@color/Blue"
+            android:textColor="@color/black"
+        />
+
+</RelativeLayout>
