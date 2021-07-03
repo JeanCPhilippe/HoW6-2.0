@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
         android:hint="@string/nome"
+        android:inputType="textPersonName"
         android:id="@+id/Nome"
         android:textIsSelectable="false"
         />
@@ -73,6 +74,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="300dp"
         android:hint="@string/cpf"
+        android:inputType="number"
         android:gravity="center"
         android:id="@+id/CPF"
         android:paddingLeft="85dp"
