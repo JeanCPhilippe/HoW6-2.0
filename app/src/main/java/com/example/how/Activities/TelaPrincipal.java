@@ -1,5 +1,6 @@
 package com.example.how.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,6 +29,7 @@ public class TelaPrincipal extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this,
                 R.id.nav_host_fragment_activity_tela_principal);
         NavigationUI.setupWithNavController(binding.navView, navController);
+        Intent telaanterior = getIntent();
     }
 
 }

@@ -20,7 +20,7 @@
     />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
@@ -35,10 +35,10 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextTextEmailAddress"
+        android:layout_below="@id/Email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:autofillHints="@string/senha"
@@ -52,7 +52,7 @@
         android:id="@+id/butLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextTextPassword"
+        android:layout_below="@id/Senha"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@color/teal_700"

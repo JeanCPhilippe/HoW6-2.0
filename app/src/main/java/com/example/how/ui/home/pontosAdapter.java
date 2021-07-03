@@ -88,8 +88,9 @@ public class pontosAdapter extends RecyclerView.Adapter<pontosAdapter.PontosView
                 {
                     Pontos rvclick = pontos.get(pos);
 
-
-
+                    /**
+                     * Apenas para verificar se o clique pegou as informações corretas
+                    **/
                     Toast.makeText(v.getContext(), "Selecionado " +
                             rvclick.getNome(), Toast.LENGTH_SHORT).show();
                     /**
@@ -138,7 +139,7 @@ public class pontosAdapter extends RecyclerView.Adapter<pontosAdapter.PontosView
             {
                for (Pontos pontos : pontosall)
                {
-                   if (pontos.getNome().contains(constraint.toString()))
+                   if (pontos.getNome().contains(constraint.toString()) || pontos.getEnd().contains(constraint.toString()))
                    {
                        filtro.add(pontos);
                    }
